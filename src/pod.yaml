@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: desafio-02
+spec:
+  containers:
+    - name: desafio-02
+      image: aqualung22/conversao-temperatura
+      ports:
+      - containerPort: 8080
